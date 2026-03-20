@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Header OPITO</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Bar biru atas */
+        .top-bar {
+            background-color: #0b5fa5;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 20px;
+        }
+
+        .top-bar a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        /* Area header bawah */
+        .header {
+            background-color: #e6e6e6;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 20px;
+        }
+
+        .logo {
+            background-color: white;
+            padding: 0px 0px;
+            border-radius: 6px;
+        }
+
+        .logo svg {
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <a href="#">Log in</a>
+    </div>
+
+    <div class="header">
+        <div class="logo">
+            <svg width="160" height="60" viewBox="0 0 300 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Warna utama -->
+  <defs>
+    <style>
+      .blue { fill: #1f5fa8; }
+      .stroke-blue { stroke: #1f5fa8; stroke-width: 6; fill: none; }
+      .text { font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Lingkaran -->
+  <circle cx="150" cy="100" r="70" class="stroke-blue"/>
+
+  <!-- Garis diagonal (kiri atas) -->
+  <rect x="110" y="38" width="10" height="52"
+        transform="rotate(-20 110 35)" class="blue"/>
+  <rect x="125" y="35" width="10" height="55"
+        transform="rotate(-20 125 35)" class="blue"/>
+  <rect x="140" y="32" width="10" height="58"
+        transform="rotate(-20 140 35)" class="blue"/>
+
+  <!-- Teks OPITO -->
+  <text x="150" y="130"
+        text-anchor="middle"
+        font-size="36"
+        class="blue text">
+    OPITO
+  </text>
+
+</svg>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate Validation</title>
+    <style>
+       
+        /* Header */
+       
+        .container {
+            max-width: 1000px;
+            margin-top: 0px;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 0px;
+        
+        }
+
+        h1 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #e0e0e0;
+            border: 1px solid #bdbdbd;
+            border-radius: 4px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: #d5d5d5;
+        }
+    </style>
+    </head>
+    </html>
+    </div>
+    </div>
+<body>
+    <div class="container">
+        <h1>Certificate is valid!</h1>
+
+        <p>
+            We can confirm that <strong>Slamet Dwi Mudiono</strong> received a certificate
+            for <em>Banksman and Slinger Initial Training (previously stage 1)</em>
+            on <strong>07/20/2024</strong>.
+            The certificate expires on <strong>07/19/2027</strong>.
+        </p>
+
+        <a href="#" class="btn">Validate another certificate</a>
+    </div>
+
+</body>
+</html>
